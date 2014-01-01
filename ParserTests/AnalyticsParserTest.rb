@@ -20,5 +20,6 @@ class AnalyticsParserTest < Test::Unit::TestCase
 
   def testCreation2
     puts 'got it! again!'
+    puts 'got it! one more time!'
   end
 end
