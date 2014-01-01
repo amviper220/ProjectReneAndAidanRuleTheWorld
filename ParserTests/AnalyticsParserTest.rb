@@ -12,14 +12,15 @@ class AnalyticsParserTest < Test::Unit::TestCase
   end
 
   # Fake test
-  def testCreation
+  def TestCreation
     @CUT.fileHandler.create_list_of_json_files 'Hello'
     assert_not_nil(@CUT.fileHandler)
     puts 'got it!'
   end
 
-  def testCreation2
+  def TestCreation2
     puts 'got it! again!'
     puts 'got it! one more time!'
+    puts 'final got it! promise last time!'
   end
 end
